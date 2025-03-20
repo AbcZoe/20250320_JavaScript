@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Javascript課程</title>
         <style>
-            a{
-                color:white;
-                background-color: darkblue;
-                text-decoration: none;
-                padding: 10px;
-                border:1px solid gold;
+            .top_a{
+                    color:white;
+                    background-color: darkblue;
+                    text-decoration: none;
+                    padding: 10px;
+                    border:1px solid gold; 
             }
-            a:link{
+            .top_a:link{
                 color:red;
             }
             /*
@@ -20,11 +20,19 @@
                 color:green;
             }
             */
+            div{
+                margin: 20px 0;
+            }
         </style>
     </head>
     <body>
         <h1>113學年度下學期Javascript程式設計課程</h1>
-        <a href="about.html">關於我</a>
-        <p>Hello Javascript!</p>
+        <a class="top_a" href="index.html">首頁</a>
+        <a class="top_a" href="about.html">關於我</a>
+        <a class="top_a" href="study.html">學習歷程</a>
+        <a class="top_a" href="homework.html">作業</a>
+        <div style="font-size:100px; background-color:blueviolet;">
+            Hello Javascript!
+        </div>
     </body>
 </html>
