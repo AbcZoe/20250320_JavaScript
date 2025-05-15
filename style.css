@@ -1,0 +1,30 @@
+.top_a{
+    color:white;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+.top_a:hover{
+background-color:rgb(60, 155, 91);
+}
+#top{
+padding: 10px;
+background-color:rgb(104, 185, 240);
+}
+div#myId{
+    width: 90%;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 10px auto;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
