@@ -3,8 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Javascript作業</title>
-        <link rel="stylesheet" href="style.css">
+        <title>N*N乘法表</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 90%;
+                margin: 30px auto;
+                background: #dcf4ff;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                overflow: hidden;
+              }
+              th, td {
+                border: 1px solid #8598d6;
+                padding: 20px;
+                vertical-align: top;
+                text-align: left;
+              }
+              th {
+                background-color: #66baff;
+                font-size: 1.2em;
+                position: relative;
+              }
+        </style>
         <script>
             function myFunction(){
                 var n=document.getElementById("numberInput").value;
@@ -28,15 +48,6 @@
         </script>
     </head>
     <body>
-        <div id="top">
-            <a class="top_a" href="index.html">首頁</a>
-            <a class="top_a" href="about.html">關於我</a>
-            <a class="top_a" href="study.html">學習歷程</a>
-            <a class="top_a" href="myproject.html">我的作品</a>
-            <a class="top_a" href="homework.html">作業1_乘法表</a>
-            <a class="top_a" href="https://abczoe.github.io/JavaScript_WaterPuzzle/" target="_blank">作業2_倒水遊戲</a>
-            <a class="top_a" href="https://abczoe.github.io/AboutReact/" target="_blank">作業3_react網頁</a>
-        </div>
         <h1>N*N乘法表</h1>
         <div>
             <label for="numberInput">請輸入一個數值:</label>

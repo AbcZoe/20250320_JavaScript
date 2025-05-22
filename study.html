@@ -4,17 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>我的學習歷程</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
         <div id="top">
             <a class="top_a" href="index.html">首頁</a>
-            <a class="top_a" href="about.html">關於我</a>
+            <a class="top_a" href="about.html">我的基本資料</a>
             <a class="top_a" href="study.html">學習歷程</a>
-            <a class="top_a" href="myproject.html">我的作品</a>
-            <a class="top_a" href="homework.html">作業1_乘法表</a>
-            <a class="top_a" href="https://abczoe.github.io/JavaScript_WaterPuzzle/" target="_blank">作業2_倒水遊戲</a>
-            <a class="top_a" href="https://abczoe.github.io/AboutReact/" target="_blank">作業3_react網頁</a>
+            <a class="top_a" href="myproject.html">我的作品與作業</a>
         </div>
         <h1>我的學習歷程</h1>
         <ol>
@@ -28,18 +25,22 @@
             國小有讀過補習班，所以成績還算可以(也就不至於會被當掉的程度而已)。
         </p>
         <div style="background-color: rgb(255, 232, 127); padding: 30px;">
-            <figure>
-
-            <img src="schoolGate.jpg" alt="schoolGate">
-            <figcaption style="font-weight: bold;"><a href="https://www.ttps.hc.edu.tw/nss/p/index">大庄國小</a></figcaption>
+            <div class="school-gallery">
+                <figure class="school-card">
+                  <img src="./src/schoolGate.jpg" alt="schoolGate">
+                  <figcaption><a href="https://www.ttps.hc.edu.tw/nss/p/index" target="_blank">大庄國小</a></figcaption>
+                </figure>
             
-            <img src="schoolGate2.jpg" alt="schoolGate2">
-            <figcaption style="font-weight: bold;"><a href="https://www.hhjh.hc.edu.tw/nss/p/index">香山高中</a></figcaption>
+                <figure class="school-card">
+                  <img src="./src/schoolGate2.jpg" alt="schoolGate2">
+                  <figcaption><a href="https://www.hhjh.hc.edu.tw/nss/p/index" target="_blank">香山高中</a></figcaption>
+                </figure>
             
-            <img src="schoolGate3.jpg" alt="schoolGate3">
-            <figcaption style="font-weight: bold;"><a href="https://www.stust.edu.tw/">南台科技大學</a></figcaption>
-            
-            </figure>
+                <figure class="school-card">
+                  <img src="./src/schoolGate3.jpg" alt="schoolGate3">
+                  <figcaption><a href="https://www.stust.edu.tw/" target="_blank">南台科技大學</a></figcaption>
+                </figure>
+              </div>
         </div>
     </body>
 </html>
