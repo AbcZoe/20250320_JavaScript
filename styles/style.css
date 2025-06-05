@@ -17,7 +17,7 @@ body {
   
   /* ======= 導覽列 ======= */
   #top {
-    background-color: #489267;
+    background-color: #485f92;
     padding: 10px;
     display: flex;
     justify-content: left;
@@ -38,7 +38,7 @@ body {
     color: rgb(0, 0, 0);
     transform: scale(1.1);
     text-decoration: none;
-    background-color: #8de6a3;
+    background-color: #8de0e6;
   }
   
   /* ======= 表格樣式 ======= */
@@ -73,14 +73,16 @@ body {
   }
 
   /* ======= 首頁自我介紹區塊 ======= */
+  .intro{
+    background-color: #8dc2e6;
+    text-align: center;
+    font-size: 1.5em;
+  }
   .intro-section {
     background-color: #f8efc5;
-    border-radius: 12px;
     padding: 25px 30px;
-    max-width: 900px;
-    margin: 30px;
     box-shadow: 0 6px 15px rgba(191, 178, 59, 0.2);
-    font-size: 1.05em;
+    font-size: 1.2em;
     color: #4e2828;
     line-height: 1.7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -124,51 +126,6 @@ body {
       font-size: 1em;
     }
   }
-
-  /* ======= 語錄區塊 ======= */
-  .quote-box {
-    position: fixed;
-    top: 120px;
-    right: 20px;
-    width: 300px;
-    background: #f7f2ff;
-    padding: 15px 20px;
-    border-left: 5px solid #aa88ff;
-    border-radius: 10px;
-    font-style: italic;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    z-index: 999;
-    animation: fadeIn 1.2s ease-in-out;
-  }
-  
-  .quote-box p {
-    margin: 0 0 10px;
-    line-height: 1.6;
-    font-size: 0.95em;
-    color: #444;
-  }
-  
-  .quote-box .en {
-    color: #777;
-    font-size: 0.85em;
-  }
-  
-  .quote-box cite {
-    display: block;
-    margin-top: 8px;
-    font-size: 0.85em;
-    text-align: right;
-    color: #888;
-  }
-  
-  /* 響應式調整：在小螢幕時移到底部 */
-  @media (max-width: 768px) {
-    .quote-box {
-      position: static;
-      width: 90%;
-      margin: 20px auto;
-    }
-  }
   
   /* ======= 學校圖片區塊 ======= */
   .school-gallery {
@@ -179,7 +136,7 @@ body {
     padding: 20px;
   }
   .school-card {
-    width: 30%;
+    width: 25%;
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
